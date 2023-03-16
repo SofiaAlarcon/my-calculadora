@@ -1,0 +1,60 @@
+
+  .boton-numero{
+    width: 52.51px;
+    height:75px;
+    background-color: rgb(88, 156, 131);
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 5px;
+    text-shadow:  1px 1px 1px black;
+  }
+  
+  .boton-punto{
+    width: 105px;
+    height:75px;
+    background-color:rgb(80, 154, 127);
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    text-shadow:  1px 1px 1px black;
+  } 
+  
+  
+  .boton-borrar{
+    width: 60.235px;
+    height: 75px;
+    font-size: 27px;
+    color: rgb(0, 63, 37);
+    background-color:rgb(155, 155, 155);
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 5px;
+    text-shadow:  1px 1px 1px black;
+    
+    
+  }
+  
+  .boton-signo{
+    width: 60.235px;
+    height: 75px;
+    background-color: rgb(155, 155, 155);
+    color: rgb(0, 130, 76);
+    font-weight: bolder;
+    font-size:30px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-shadow:  1px 1px 1px black;
+    border-radius: 5px;
+    
+  }
+  
+  .boton-igual{
+    width: 120.47px;
+    height: 75px;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: rgb(155, 155, 155);
+    color: rgb(0, 130, 76);
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 5px;
+    text-shadow:  1px 1px 1px black;
+  }
+  
