@@ -7,22 +7,18 @@ export function Teclado({input, borrarC, resultado, setInput}) {
   function handleClick(valor) {
     setInput(input + valor)
   }
+  
+  const numbers = [7,8,9,4,5,6,1,2,3,0]
 
     return (
         <div className='teclado'>
-          
           <div className='div-nros'>
             {/*botones de los numeros*/}
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(7)} value={7}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(8)} value={8}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(9)} value={9}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(4)} value={4}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(5)} value={5}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(6)} value={6}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(1)} value={1}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(2)} value={2}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(3)} value={3}/>
-            <Boton styleClass='boton-numero' handleClick={() => handleClick(0)} value={0}/>
+
+            {numbers.map(number => 
+            <Boton key={number} styleClass='boton-numero' handleClick={() => handleClick(number)} value={number}/> 
+            )}
+
             <Boton styleClass='boton-punto' handleClick={() => handleClick(".")} value="."/>
           </div>
 
