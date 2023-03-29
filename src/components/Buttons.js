@@ -1,8 +1,8 @@
 import React from "react";
-import './Botones.css';
+import './Buttons.css';
 
 
-export default function Boton({value, handleClick, styleClass}) {
+export default function Button({value, handleClick, styleClass}) {
  
     return(
         <button className={styleClass} onClick={handleClick}>{value}</button>
