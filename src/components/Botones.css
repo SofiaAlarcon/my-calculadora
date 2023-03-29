@@ -1,7 +1,8 @@
 
   .boton-numero{
-    width: 52.51px;
-    height:75px;
+    width: 33%;
+    height:25%;
+    min-width: 10px;
     background-color: rgb(88, 156, 131);
     font-size: 20px;
     font-family: 'IBM Plex Mono', monospace;
@@ -10,8 +11,8 @@
   }
   
   .boton-punto{
-    width: 105px;
-    height:75px;
+    width: 67%;
+    height:25%;
     background-color:rgb(80, 154, 127);
     font-size: 20px;
     font-family: 'Roboto Mono', monospace;
@@ -21,8 +22,8 @@
   
   
   .boton-borrar{
-    width: 60.235px;
-    height: 75px;
+    width: 50%;
+    height: 25%;
     font-size: 27px;
     color: rgb(0, 63, 37);
     background-color:rgb(155, 155, 155);
@@ -34,8 +35,8 @@
   }
   
   .boton-signo{
-    width: 60.235px;
-    height: 75px;
+    width: 50%;
+    height: 25%;
     background-color: rgb(155, 155, 155);
     color: rgb(0, 130, 76);
     font-weight: bolder;
@@ -47,8 +48,8 @@
   }
   
   .boton-igual{
-    width: 120.47px;
-    height: 75px;
+    width: 100%;
+    height: 25%;
     font-weight: bolder;
     font-size: 30px;
     background-color: rgb(155, 155, 155);

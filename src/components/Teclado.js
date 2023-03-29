@@ -14,13 +14,13 @@ export function Teclado({input, borrarC, resultado, setInput}) {
         <div className='teclado'>
           <div className='div-nros'>
             {/*botones de los numeros*/}
-
+            
             {numbers.map(number => 
             <Boton key={number} styleClass='boton-numero' handleClick={() => handleClick(number)} value={number}/> 
             )}
 
             <Boton styleClass='boton-punto' handleClick={() => handleClick(".")} value="."/>
-          </div>
+          </div>  
 
           <div className='div-signos'>
             {/* botones de los signos y para borrar*/}
@@ -32,7 +32,6 @@ export function Teclado({input, borrarC, resultado, setInput}) {
             <Boton styleClass='boton-signo' handleClick={() => handleClick("*")} value="*"/>
             <Boton styleClass='boton-igual' handleClick={() => resultado()} value="="/>
           </div>
-
         </div>
     )
 } 

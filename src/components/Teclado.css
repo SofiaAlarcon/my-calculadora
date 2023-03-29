@@ -1,23 +1,25 @@
 .teclado{
-    border-color: black;
-    border-width: 1px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    background-color:rgb(129, 129, 129) ;
+  height: 73%; 
+  width: 91%;
+  display: flex;
+  justify-content: center;
+  border-color: black;
+  border-width: 1px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 0%;
+  background-color:rgb(129, 129, 129) ;
 }
 
 .div-nros{
-    height: 300px;
-    width:170px;
+    height: 100%;
+    width:55%;
 }
 
 .div-signos{
-  height: 300px;
-  width: 130px;
+  height: 100%;
+  width: 45%;
 }
 
