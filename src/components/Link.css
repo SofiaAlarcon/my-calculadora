@@ -1,0 +1,9 @@
+.info{
+    font-family: 'IBM Plex Mono', monospace;
+    justify-content: end;
+}
+
+.logo{
+    width:26px;
+    height: 26px;
+}
