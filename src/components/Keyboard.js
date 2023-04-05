@@ -23,7 +23,7 @@ export function Keyboard({input, deleteC, result, setInput}) {
 
           <div className='div-signs'>
             {/* botones de los signos y para borrar*/}
-            <Button styleClass='delete' handleClick={() => deleteC()} value="C"/>
+            <Button styleClass='delete' handleClick={() => deleteC()} value="del"/>
             <Button styleClass='delete' handleClick={() => setInput("")} value="AC"/>
             <Button styleClass='sign' handleClick={() => handleClick("-")} value="-"/>
             <Button styleClass='sign' handleClick={() => handleClick("+")} value="+"/>
