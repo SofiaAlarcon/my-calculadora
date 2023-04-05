@@ -9,5 +9,5 @@ Esta aplicación surge como un proyecto personal para poner en práctica mis con
 * El resultado se muestra al hacer click sobre el botón de igual, como también al apretar "enter"
 
 ## :wrench: Próximos pasos
-* Expandir de los operadores matemáticos disponibles.
+* Expandir los operadores matemáticos disponibles.
 * Permitir customizar los colores del theme.
